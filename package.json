@@ -59,7 +59,7 @@
   "lint-staged": {
     "src/**/*": [
       "yarn lint",
-      "yarn test -- --findRelatedTests --bail"
+      "yarn test --watchAll=false --bail --findRelatedTests"
     ]
   }
 }
