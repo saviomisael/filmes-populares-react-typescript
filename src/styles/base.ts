@@ -22,4 +22,21 @@ export const BaseStyles = createGlobalStyle`
     max-width: 100vw;
     min-height: 100vh;
   }
+
+  h1 {
+    font-size: ${({ theme }) => theme.fonts.sizes.huge};
+    margin: 0;
+  }
+
+  h2 {
+    font-size: ${({ theme }) => theme.fonts.sizes.largest};
+  }
+
+  h3 {
+    font-size: ${({ theme }) => theme.fonts.sizes.large};
+  }
+
+  h4 {
+    font-size: ${({ theme }) => theme.fonts.sizes.medium};
+  }
 `;
