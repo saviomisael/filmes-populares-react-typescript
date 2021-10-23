@@ -3,14 +3,24 @@ import 'styled-components';
 declare module 'styled-components' {
   export interface DefaultTheme {
     colors: {
-      [index: string]: string;
+      first: string;
+      second: string;
+      third: string;
+      white: string;
+      gray: string;
     };
+
     fonts: {
       family: {
-        [index: string]: string;
+        redRose: string;
       };
       sizes: {
-        [index: string]: string;
+        small: string;
+        default: string;
+        medium: string;
+        large: string;
+        largest: string;
+        huge: string;
       };
     };
   }
