@@ -21,6 +21,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:coverage": "yarn test --watchAll=false --coverage",
     "eject": "react-scripts eject",
     "lint": "eslint src/**/*.{ts,tsx} --max-warnings=0 --fix",
     "lint-staged": "lint-staged",
@@ -79,6 +80,16 @@
     "src/**/*": [
       "yarn lint",
       "yarn test --watchAll=false --bail --findRelatedTests"
+    ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx}",
+      "!<rootDir>/src/*.{ts,tsx}",
+      "!<rootDir>/src/**/*mock*.{ts,tsx}",
+      "!<rootDir>/src/**/styles/*.{ts,tsx}",
+      "!<rootDir>/src/**/**.stories.{ts,tsx}",
+      "!<rootDir>/node_modules/"
     ]
   }
 }
