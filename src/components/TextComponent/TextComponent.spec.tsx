@@ -12,4 +12,12 @@ describe('<TextComponent />', () => {
 
     expect(text).toHaveStyleRule('text-align', 'left');
   });
+
+  it('should renders text more small when hasTextSmall is true', () => {
+    renderTheme(<TextComponent hasTextSmall>Some text</TextComponent>);
+
+    const text = screen.getByText('Some text');
+
+    expect(text).toHaveStyleRule('font-size', '1.4rem');
+  });
 });
