@@ -54,4 +54,12 @@ describe('<Heading />', () => {
 
     expect(heading).toHaveStyleRule('text-align', 'center');
   });
+
+  it('should renders text uppercase when hasTextUppercase is true', () => {
+    renderTheme(<Heading hasTextUppercase>Some text</Heading>);
+
+    const heading = screen.getByRole('heading', { name: /some text/i });
+
+    expect(heading).toHaveStyleRule('text-transform', 'uppercase');
+  });
 });
