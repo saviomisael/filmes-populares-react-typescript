@@ -46,4 +46,12 @@ describe('<Heading />', () => {
 
     expect(heading.tagName.toLowerCase()).toBe('h4');
   });
+
+  it('should renders text align to center when hasTextCenter is true', () => {
+    renderTheme(<Heading hasTextCenter>Some text</Heading>);
+
+    const heading = screen.getByRole('heading', { name: /some text/i });
+
+    expect(heading).toHaveStyleRule('text-align', 'center');
+  });
 });
