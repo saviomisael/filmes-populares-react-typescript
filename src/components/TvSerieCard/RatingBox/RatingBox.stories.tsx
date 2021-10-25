@@ -13,3 +13,9 @@ export default {
 } as Meta;
 
 export const Default: Story<RatingBoxProps> = (args) => <RatingBox {...args} />;
+
+export const WhenAmountIsNotDecimal = Default.bind({});
+
+WhenAmountIsNotDecimal.args = {
+  amount: 9,
+};
