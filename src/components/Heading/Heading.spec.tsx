@@ -13,6 +13,8 @@ describe('<Heading />', () => {
     expect(heading).toHaveStyleRule('color', '#FFFFFF');
 
     expect(heading).toHaveStyleRule('text-align', 'left');
+
+    expect(heading).toHaveStyleRule('text-transform', 'none');
   });
 
   it('should renders component with text color dark when hasColorDark is true', () => {
