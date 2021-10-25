@@ -20,4 +20,12 @@ describe('<TextComponent />', () => {
 
     expect(text).toHaveStyleRule('font-size', '1.4rem');
   });
+
+  it('should renders text centered when hasTextCenter is true', () => {
+    renderTheme(<TextComponent hasTextCenter>Some text</TextComponent>);
+
+    const text = screen.getByText('Some text');
+
+    expect(text).toHaveStyleRule('text-align', 'center');
+  });
 });
