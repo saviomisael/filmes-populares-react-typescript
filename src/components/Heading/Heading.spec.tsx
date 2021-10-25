@@ -64,4 +64,12 @@ describe('<Heading />', () => {
 
     expect(heading).toHaveStyleRule('text-transform', 'uppercase');
   });
+
+  it('should matches with snapshot', () => {
+    renderTheme(<Heading>Some text</Heading>);
+
+    const heading = screen.getByRole('heading', { name: /some text/i });
+
+    expect(heading).toMatchSnapshot();
+  });
 });
