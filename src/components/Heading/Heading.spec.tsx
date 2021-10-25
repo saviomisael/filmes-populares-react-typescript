@@ -14,4 +14,12 @@ describe('<Heading />', () => {
 
     expect(heading).toHaveStyleRule('text-align', 'left');
   });
+
+  it('should renders component with text color dark when hasColorDark is true', () => {
+    renderTheme(<Heading hasColorDark>Some text</Heading>);
+
+    const heading = screen.getByRole('heading', { name: /some text/i });
+
+    expect(heading).toHaveStyleRule('color', '#413B3B');
+  });
 });
