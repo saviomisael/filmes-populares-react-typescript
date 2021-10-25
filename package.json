@@ -77,7 +77,7 @@
     "prettier": "^2.4.1"
   },
   "lint-staged": {
-    "src/**/*": [
+    "src/**/*.{ts,tsx}": [
       "yarn lint",
       "yarn test --watchAll=false --bail --findRelatedTests"
     ]
