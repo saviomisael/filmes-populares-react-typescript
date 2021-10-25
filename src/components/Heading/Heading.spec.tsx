@@ -38,4 +38,12 @@ describe('<Heading />', () => {
 
     expect(heading.tagName.toLowerCase()).toBe('h3');
   });
+
+  it('should renders as a h4 element', () => {
+    renderTheme(<Heading as="h4">Some text</Heading>);
+
+    const heading = screen.getByRole('heading', { name: /some text/i });
+
+    expect(heading.tagName.toLowerCase()).toBe('h4');
+  });
 });
