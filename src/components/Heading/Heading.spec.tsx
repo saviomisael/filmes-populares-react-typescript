@@ -22,4 +22,12 @@ describe('<Heading />', () => {
 
     expect(heading).toHaveStyleRule('color', '#413B3B');
   });
+
+  it('should renders as a h2 element', () => {
+    renderTheme(<Heading as="h2">Some text</Heading>);
+
+    const heading = screen.getByRole('heading', { name: /some text/i });
+
+    expect(heading.tagName.toLowerCase()).toBe('h2');
+  });
 });
