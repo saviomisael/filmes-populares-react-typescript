@@ -4,7 +4,7 @@ import * as Styled from './styles';
 
 export const Footer = () => {
   return (
-    <Styled.FooterContainer>
+    <Styled.FooterContainer data-testid="footer">
       <TextComponent>Dados providos por:</TextComponent>
       <TMDBLogo />
     </Styled.FooterContainer>

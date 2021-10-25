@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> should matches with snapshot 1`] = `
+.c1 {
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.c2 {
+  width: 48.9rem;
+}
+
+.c0 {
+  background-color: #F11C27;
+  height: 25vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-column-gap: 2.2rem;
+  column-gap: 2.2rem;
+}
+
+<footer
+  class="c0"
+  data-testid="footer"
+>
+  <p
+    class="c1"
+  >
+    Dados providos por:
+  </p>
+  <img
+    alt="The Movie DB logo"
+    class="c2"
+    src="tmdb-logo.svg"
+  />
+</footer>
+`;
