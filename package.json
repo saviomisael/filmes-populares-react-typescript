@@ -23,7 +23,7 @@
     "test": "react-scripts test",
     "test:coverage": "yarn test --watchAll=false --coverage",
     "eject": "react-scripts eject",
-    "lint": "eslint src/**/*.{ts,tsx} --max-warnings=0 --fix",
+    "lint": "eslint --ext ts,tsx src --max-warnings=0 --fix",
     "lint-staged": "lint-staged",
     "prepare": "husky install",
     "storybook": "start-storybook -p 6006 -s public",
