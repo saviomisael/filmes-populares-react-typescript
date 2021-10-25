@@ -9,11 +9,13 @@ export default {
     hasColorDark: false,
     as: 'h1',
     hasTextCenter: false,
+    hasTextUppercase: false,
   },
   argTypes: {
     children: { type: 'string' },
     hasColorDark: { type: 'boolean' },
     hasTextCenter: { type: 'boolean' },
+    hasTextUppercase: { type: 'boolean' },
   },
   parameters: {
     backgrounds: {
@@ -58,4 +60,10 @@ export const WithTextCenter: Story<HeadingProps> = Default.bind({});
 
 WithTextCenter.args = {
   hasTextCenter: true,
+};
+
+export const WithTextUppercase: Story<HeadingProps> = Default.bind({});
+
+WithTextUppercase.args = {
+  hasTextUppercase: true,
 };
