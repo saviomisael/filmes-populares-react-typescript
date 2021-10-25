@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TMDBLogo /> should matches with snapshot 1`] = `
+.c0 {
+  width: 48.9rem;
+}
+
+<img
+  alt="The Movie DB logo"
+  class="c0"
+  src="tmdb-logo.svg"
+/>
+`;

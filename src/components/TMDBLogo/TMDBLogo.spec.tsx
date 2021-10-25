@@ -10,4 +10,12 @@ describe('<TMDBLogo />', () => {
 
     expect(image).toBeInTheDocument();
   });
+
+  it('should matches with snapshot', () => {
+    renderTheme(<TMDBLogo />);
+
+    const image = screen.getByAltText(/the movie db logo/i);
+
+    expect(image).toMatchSnapshot();
+  });
 });
