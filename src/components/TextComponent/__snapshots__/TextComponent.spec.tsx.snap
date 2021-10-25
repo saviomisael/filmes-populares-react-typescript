@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextComponent /> should matches with snapshot 1`] = `
+.c0 {
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+<p
+  class="c0"
+>
+  Some text
+</p>
+`;

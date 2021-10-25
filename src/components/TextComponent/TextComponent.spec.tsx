@@ -28,4 +28,12 @@ describe('<TextComponent />', () => {
 
     expect(text).toHaveStyleRule('text-align', 'center');
   });
+
+  it('should matches with snapshot', () => {
+    renderTheme(<TextComponent hasTextCenter>Some text</TextComponent>);
+
+    const text = screen.getByText('Some text');
+
+    expect(text).toMatchSnapshot();
+  });
 });
