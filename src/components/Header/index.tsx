@@ -3,7 +3,7 @@ import * as Styled from './styles';
 
 export const Header = () => {
   return (
-    <Styled.Header>
+    <Styled.Header data-testid="header">
       <Heading hasColorDark hasTextCenter hasTextUppercase>
         Filmes populares
       </Heading>
