@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TvSerieCard /> should matches with snapshot 1`] = `
+.c5 {
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-column-gap: 1.4rem;
+  column-gap: 1.4rem;
+  color: #FFFFFF;
+}
+
+.c6::before {
+  content: url(star.svg);
+}
+
+.c0 {
+  width: 26.2rem;
+}
+
+.c4 {
+  width: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 1.5rem 0;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: visibility 0.3s,opacity 0.3s;
+  transition: visibility 0.3s,opacity 0.3s;
+  background: #413B3B88;
+}
+
+.c1 {
+  border-radius: 1.2rem;
+  position: relative;
+}
+
+.c1:hover .c3 {
+  visibility: visible;
+  opacity: 1;
+}
+
+.c2 {
+  width: 100%;
+  border-radius: inherit;
+}
+
+<article
+  class="c0"
+>
+  <figure
+    class="c1"
+  >
+    <img
+      alt="poster da série Round 6"
+      class="c2"
+      src="https://image.tmdb.org/t/p/original/6gcHdboppvplmBWxvROc96NJnmm.jpg"
+    />
+    <figcaption
+      class="c3 c4"
+    >
+      <p
+        class="c5"
+      >
+        Round 6
+      </p>
+      <h4
+        class="c6"
+      >
+        7.5
+      </h4>
+    </figcaption>
+  </figure>
+</article>
+`;
