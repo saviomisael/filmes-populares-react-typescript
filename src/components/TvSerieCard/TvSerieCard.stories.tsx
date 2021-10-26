@@ -1,12 +1,13 @@
 import { Meta, Story } from '@storybook/react';
-import { TvSerie } from 'models/TvSerie';
 import { TvSerieCard, TvSerieCardProps } from '.';
+import { tvSerieMock } from 'mocks/tv-serie-mock';
+import { TvSerie } from 'models/TvSerie';
 
 export default {
   title: 'components/TvSerieCard',
   component: TvSerieCard,
   args: {
-    tvSerie: new TvSerie(1, 'Round 6', 7.5, '/6gcHdboppvplmBWxvROc96NJnmm.jpg'),
+    tvSerie: new TvSerie(tvSerieMock.id, tvSerieMock.name, tvSerieMock.rating, tvSerieMock.poster),
   },
   parameters: {
     backgrounds: {
