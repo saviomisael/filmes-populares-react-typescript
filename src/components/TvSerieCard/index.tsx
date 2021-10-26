@@ -1,6 +1,6 @@
 import { TextComponent } from 'components/TextComponent';
 import { TvSerie } from 'models/TvSerie';
-import { RatingBox } from './RatingBox';
+import { RatingBox } from '../RatingBox';
 import * as Styled from './styles';
 
 export type TvSerieCardProps = {
