@@ -1,6 +1,8 @@
 import { ThemeProvider } from 'styled-components';
 import { theme } from '../src/styles/theme';
 import { BaseStyles } from '../src/styles/base';
+import { Provider } from 'react-redux';
+import { storeMock } from '../src/mocks/configure-store-mock';
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
@@ -27,9 +29,11 @@ export const parameters = {
 
 export const decorators = [
   (Story) => (
-    <ThemeProvider theme={theme}>
-      <BaseStyles />
-      <Story />
-    </ThemeProvider>
+    <Provider store={storeMock}>
+      <ThemeProvider theme={theme}>
+        <BaseStyles />
+        <Story />
+      </ThemeProvider>
+    </Provider>
   ),
 ];
