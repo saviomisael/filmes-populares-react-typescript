@@ -26,25 +26,25 @@ export default {
 
 export const Default: Story<HeadingProps> = (args) => <Heading {...args} />;
 
-export const Heading2: Story<HeadingProps> = Default.bind({});
+export const Heading2 = Default.bind({});
 
 Heading2.args = {
   as: 'h2',
 };
 
-export const Heading3: Story<HeadingProps> = Default.bind({});
+export const Heading3 = Default.bind({});
 
 Heading3.args = {
   as: 'h3',
 };
 
-export const Heading4: Story<HeadingProps> = Default.bind({});
+export const Heading4 = Default.bind({});
 
 Heading4.args = {
   as: 'h4',
 };
 
-export const WithColorDark: Story<HeadingProps> = Default.bind({});
+export const WithColorDark = Default.bind({});
 
 WithColorDark.args = {
   hasColorDark: true,
@@ -56,13 +56,13 @@ WithColorDark.parameters = {
   },
 };
 
-export const WithTextCenter: Story<HeadingProps> = Default.bind({});
+export const WithTextCenter = Default.bind({});
 
 WithTextCenter.args = {
   hasTextCenter: true,
 };
 
-export const WithTextUppercase: Story<HeadingProps> = Default.bind({});
+export const WithTextUppercase = Default.bind({});
 
 WithTextUppercase.args = {
   hasTextUppercase: true,
