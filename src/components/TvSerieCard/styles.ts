@@ -8,7 +8,7 @@ export const Caption = styled.figcaption`
   width: 100%;
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 0.2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,6 +17,8 @@ export const Caption = styled.figcaption`
   visibility: hidden;
   opacity: 0;
   transition: visibility 0.3s, opacity 0.3s;
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
 
   background: ${({ theme }) => `${theme.colors.second}88`};
 `;

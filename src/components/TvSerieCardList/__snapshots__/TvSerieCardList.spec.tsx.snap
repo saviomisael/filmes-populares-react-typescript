@@ -38,7 +38,7 @@ exports[`<TvSerieCardList /> should matches with snapshot 1`] = `
   width: 100%;
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 0.2rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -59,6 +59,8 @@ exports[`<TvSerieCardList /> should matches with snapshot 1`] = `
   opacity: 0;
   -webkit-transition: visibility 0.3s,opacity 0.3s;
   transition: visibility 0.3s,opacity 0.3s;
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
   background: #413B3B88;
 }
 
