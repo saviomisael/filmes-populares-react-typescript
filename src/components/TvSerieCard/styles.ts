@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.article`
-  width: 26.2rem;
+  width: 24rem;
 `;
 
 export const Caption = styled.figcaption`
