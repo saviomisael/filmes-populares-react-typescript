@@ -8,10 +8,9 @@ describe('tv serie duck', () => {
       tvSeries: [],
     };
 
-    const stateModified = tvSerieReducer(
-      initialState,
-      tvSerieActions.addSeries([new TvSerie(tvSerieMock.id, tvSerieMock.name, tvSerieMock.rating, tvSerieMock.poster)]),
-    );
+    const payload = [new TvSerie(tvSerieMock.id, tvSerieMock.name, tvSerieMock.rating, tvSerieMock.poster)];
+
+    const stateModified = tvSerieReducer(initialState, tvSerieActions.addSeries(payload));
 
     expect(stateModified.tvSeries).toHaveLength(1);
   });
