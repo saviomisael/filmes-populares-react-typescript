@@ -1,11 +1,10 @@
-import { ReactNode } from 'react';
+import { WithChildren } from 'utils/with-children';
 import * as Styled from './styles';
 
-export type TextComponentProps = {
-  children: ReactNode;
+export interface TextComponentProps extends WithChildren {
   hasTextSmall?: boolean;
   hasTextCenter?: boolean;
-};
+}
 
 export const TextComponent = ({ children, hasTextSmall = false, hasTextCenter = false }: TextComponentProps) => {
   return (
