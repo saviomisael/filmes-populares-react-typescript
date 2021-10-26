@@ -14,7 +14,7 @@ const bgColors = {
 };
 
 export const SectionStyled = styled.section<SectionStyledProps>`
-  padding: 1rem;
+  padding: 1.5rem;
 
   ${({ background, theme }) => bgColors[background](theme)};
 `;

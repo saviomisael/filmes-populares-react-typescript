@@ -2,7 +2,7 @@
 
 exports[`<Section /> should matches with snapshot 1`] = `
 .c0 {
-  padding: 1rem;
+  padding: 1.5rem;
   background: #FA9F42;
 }
 
