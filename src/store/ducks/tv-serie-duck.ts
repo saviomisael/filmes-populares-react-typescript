@@ -1,7 +1,7 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { TvSerie } from 'models/TvSerie';
 
-interface TvSerieState {
+export interface TvSerieState {
   tvSeries: TvSerie[];
 }
 
