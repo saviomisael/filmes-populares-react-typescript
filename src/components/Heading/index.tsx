@@ -1,13 +1,12 @@
-import { ReactNode } from 'react';
+import { WithChildren } from 'utils/with-children';
 import * as Styled from './styles';
 
-export type HeadingProps = {
+export interface HeadingProps extends WithChildren {
   hasColorDark?: boolean;
-  children: ReactNode;
   as?: 'h1' | 'h2' | 'h3' | 'h4';
   hasTextCenter?: boolean;
   hasTextUppercase?: boolean;
-};
+}
 
 export const Heading = ({
   children,
