@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Section /> should matches with snapshot 1`] = `
+.c0 {
+  padding: 1rem;
+  background: #FA9F42;
+}
+
+<section
+  class="c0"
+>
+  Some text
+</section>
+`;
