@@ -5,9 +5,9 @@ import { renderTheme } from 'utils/test-utils';
 import { MovieCardList } from '.';
 
 describe('<MovieCardList />', () => {
-  it('should show many li elements', () => {
-    const movies = movieListMock.map((x) => new Movie(x.id, x.name, x.rating, x.releaseDate, x.poster, x.overview));
+  const movies = movieListMock.map((x) => new Movie(x.id, x.name, x.rating, x.releaseDate, x.poster, x.overview));
 
+  it('should show many li elements', () => {
     renderTheme(<MovieCardList movies={movies} />);
 
     const liElements = screen.getAllByRole('listitem');
@@ -16,8 +16,6 @@ describe('<MovieCardList />', () => {
   });
 
   it('should matches with snapshot', () => {
-    const movies = movieListMock.map((x) => new Movie(x.id, x.name, x.rating, x.releaseDate, x.poster, x.overview));
-
     const { container } = renderTheme(<MovieCardList movies={movies} />);
 
     expect(container.firstChild).toMatchSnapshot();
