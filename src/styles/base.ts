@@ -39,4 +39,8 @@ export const BaseStyles = createGlobalStyle`
   h4 {
     font-size: ${({ theme }) => theme.fonts.sizes.medium};
   }
+
+  li {
+    list-style: none;
+  }
 `;
