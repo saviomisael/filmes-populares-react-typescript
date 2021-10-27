@@ -7,7 +7,11 @@ export type MovieCardListProps = {
 };
 
 export const MovieCardList = ({ movies }: MovieCardListProps) => {
-  const renderMovies = movies.map((x) => <MovieCard key={x.id} movie={x} />);
+  const renderMovies = movies.map((x) => (
+    <li key={x.id}>
+      <MovieCard movie={x} />
+    </li>
+  ));
 
   return <Styled.Container>{renderMovies}</Styled.Container>;
 };
