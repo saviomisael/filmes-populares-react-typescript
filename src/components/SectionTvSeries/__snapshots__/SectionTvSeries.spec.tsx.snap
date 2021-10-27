@@ -113,145 +113,155 @@ exports[`<SectionTvSeries /> should matches with snapshot 1`] = `
   >
     Séries mais assistidas
   </h1>
-  <div
+  <ul
     class="c2"
     data-testid="tvserielistcontainer"
   >
-    <article
-      class="c3"
-    >
-      <figure
-        class="c4"
+    <li>
+      <article
+        class="c3"
       >
-        <img
-          alt="poster da série Round 6"
-          class="c5"
-          src="https://image.tmdb.org/t/p/original/6gcHdboppvplmBWxvROc96NJnmm.jpg"
-        />
-        <figcaption
-          class="c6 c7"
+        <figure
+          class="c4"
         >
-          <p
-            class="c8"
+          <img
+            alt="poster da série Round 6"
+            class="c5"
+            src="https://image.tmdb.org/t/p/original/6gcHdboppvplmBWxvROc96NJnmm.jpg"
+          />
+          <figcaption
+            class="c6 c7"
           >
-            Round 6
-          </p>
-          <h4
-            class="c9"
-          >
-            7.5
-          </h4>
-        </figcaption>
-      </figure>
-    </article>
-    <article
-      class="c3"
-    >
-      <figure
-        class="c4"
+            <p
+              class="c8"
+            >
+              Round 6
+            </p>
+            <h4
+              class="c9"
+            >
+              7.5
+            </h4>
+          </figcaption>
+        </figure>
+      </article>
+    </li>
+    <li>
+      <article
+        class="c3"
       >
-        <img
-          alt="poster da série Round 6"
-          class="c5"
-          src="https://image.tmdb.org/t/p/original/6gcHdboppvplmBWxvROc96NJnmm.jpg"
-        />
-        <figcaption
-          class="c6 c7"
+        <figure
+          class="c4"
         >
-          <p
-            class="c8"
+          <img
+            alt="poster da série Round 6"
+            class="c5"
+            src="https://image.tmdb.org/t/p/original/6gcHdboppvplmBWxvROc96NJnmm.jpg"
+          />
+          <figcaption
+            class="c6 c7"
           >
-            Round 6
-          </p>
-          <h4
-            class="c9"
-          >
-            7.5
-          </h4>
-        </figcaption>
-      </figure>
-    </article>
-    <article
-      class="c3"
-    >
-      <figure
-        class="c4"
+            <p
+              class="c8"
+            >
+              Round 6
+            </p>
+            <h4
+              class="c9"
+            >
+              7.5
+            </h4>
+          </figcaption>
+        </figure>
+      </article>
+    </li>
+    <li>
+      <article
+        class="c3"
       >
-        <img
-          alt="poster da série Round 6"
-          class="c5"
-          src="https://image.tmdb.org/t/p/original/6gcHdboppvplmBWxvROc96NJnmm.jpg"
-        />
-        <figcaption
-          class="c6 c7"
+        <figure
+          class="c4"
         >
-          <p
-            class="c8"
+          <img
+            alt="poster da série Round 6"
+            class="c5"
+            src="https://image.tmdb.org/t/p/original/6gcHdboppvplmBWxvROc96NJnmm.jpg"
+          />
+          <figcaption
+            class="c6 c7"
           >
-            Round 6
-          </p>
-          <h4
-            class="c9"
-          >
-            7.5
-          </h4>
-        </figcaption>
-      </figure>
-    </article>
-    <article
-      class="c3"
-    >
-      <figure
-        class="c4"
+            <p
+              class="c8"
+            >
+              Round 6
+            </p>
+            <h4
+              class="c9"
+            >
+              7.5
+            </h4>
+          </figcaption>
+        </figure>
+      </article>
+    </li>
+    <li>
+      <article
+        class="c3"
       >
-        <img
-          alt="poster da série Round 6"
-          class="c5"
-          src="https://image.tmdb.org/t/p/original/6gcHdboppvplmBWxvROc96NJnmm.jpg"
-        />
-        <figcaption
-          class="c6 c7"
+        <figure
+          class="c4"
         >
-          <p
-            class="c8"
+          <img
+            alt="poster da série Round 6"
+            class="c5"
+            src="https://image.tmdb.org/t/p/original/6gcHdboppvplmBWxvROc96NJnmm.jpg"
+          />
+          <figcaption
+            class="c6 c7"
           >
-            Round 6
-          </p>
-          <h4
-            class="c9"
-          >
-            7.5
-          </h4>
-        </figcaption>
-      </figure>
-    </article>
-    <article
-      class="c3"
-    >
-      <figure
-        class="c4"
+            <p
+              class="c8"
+            >
+              Round 6
+            </p>
+            <h4
+              class="c9"
+            >
+              7.5
+            </h4>
+          </figcaption>
+        </figure>
+      </article>
+    </li>
+    <li>
+      <article
+        class="c3"
       >
-        <img
-          alt="poster da série Round 6"
-          class="c5"
-          src="https://image.tmdb.org/t/p/original/6gcHdboppvplmBWxvROc96NJnmm.jpg"
-        />
-        <figcaption
-          class="c6 c7"
+        <figure
+          class="c4"
         >
-          <p
-            class="c8"
+          <img
+            alt="poster da série Round 6"
+            class="c5"
+            src="https://image.tmdb.org/t/p/original/6gcHdboppvplmBWxvROc96NJnmm.jpg"
+          />
+          <figcaption
+            class="c6 c7"
           >
-            Round 6
-          </p>
-          <h4
-            class="c9"
-          >
-            7.5
-          </h4>
-        </figcaption>
-      </figure>
-    </article>
-  </div>
+            <p
+              class="c8"
+            >
+              Round 6
+            </p>
+            <h4
+              class="c9"
+            >
+              7.5
+            </h4>
+          </figcaption>
+        </figure>
+      </article>
+    </li>
+  </ul>
 </section>
 `;

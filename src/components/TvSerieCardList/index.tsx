@@ -7,7 +7,11 @@ export type TvSerieCardListProps = {
 };
 
 export const TvSerieCardList = ({ series }: TvSerieCardListProps) => {
-  const renderSeries = series.map((x) => <TvSerieCard key={x.id} tvSerie={x} />);
+  const renderSeries = series.map((x) => (
+    <li key={x.id}>
+      <TvSerieCard tvSerie={x} />
+    </li>
+  ));
 
   return <Styled.Container data-testid="tvserielistcontainer">{renderSeries}</Styled.Container>;
 };
