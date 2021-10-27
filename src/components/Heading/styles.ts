@@ -11,4 +11,5 @@ export const Title = styled.h1<TitleProps>`
   color: ${({ theme, dark }) => (dark ? theme.colors.second : theme.colors.white)};
   text-align: ${({ textCenter }) => (textCenter ? 'center' : 'left')};
   text-transform: ${({ uppercase }) => (uppercase ? 'uppercase' : 'none')};
+  padding-bottom: 2rem;
 `;

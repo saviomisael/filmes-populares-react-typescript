@@ -5,6 +5,7 @@ exports[`<MovieCard /> should matches with snapshot 1`] = `
   color: #FFFFFF;
   text-align: center;
   text-transform: none;
+  padding-bottom: 2rem;
 }
 
 .c5 {

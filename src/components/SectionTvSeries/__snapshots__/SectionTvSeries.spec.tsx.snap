@@ -5,6 +5,7 @@ exports[`<SectionTvSeries /> should matches with snapshot 1`] = `
   color: #413B3B;
   text-align: left;
   text-transform: none;
+  padding-bottom: 2rem;
 }
 
 .c0 {

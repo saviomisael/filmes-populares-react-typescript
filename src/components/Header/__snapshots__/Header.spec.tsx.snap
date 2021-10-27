@@ -5,6 +5,7 @@ exports[`<Header /> should matches with snapshot 1`] = `
   color: #413B3B;
   text-align: center;
   text-transform: uppercase;
+  padding-bottom: 2rem;
 }
 
 .c0 {
