@@ -14,4 +14,12 @@ describe('<MovieCardList />', () => {
 
     expect(liElements).toHaveLength(4);
   });
+
+  it('should matches with snapshot', () => {
+    const movies = movieListMock.map((x) => new Movie(x.id, x.name, x.rating, x.releaseDate, x.poster, x.overview));
+
+    const { container } = renderTheme(<MovieCardList movies={movies} />);
+
+    expect(container.firstChild).toMatchSnapshot();
+  });
 });
