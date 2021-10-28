@@ -1,5 +1,6 @@
 import { Movie } from './Movie';
 import { movieMock } from 'mocks/movie-mock';
+import { genreMock } from 'mocks/genre-mock';
 
 describe('Movie model', () => {
   it('should has poster that contain a url', () => {
@@ -26,5 +27,19 @@ describe('Movie model', () => {
     );
 
     expect(movie.genres).toHaveLength(0);
+  });
+
+  it('should does not have a empty array when genres are not nullish', () => {
+    const movie = new Movie(
+      movieMock.id,
+      movieMock.name,
+      movieMock.rating,
+      movieMock.releaseDate,
+      movieMock.poster,
+      movieMock.overview,
+      [...genreMock],
+    );
+
+    expect(movie.genres).toHaveLength(1);
   });
 });
