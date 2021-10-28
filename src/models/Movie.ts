@@ -1,4 +1,5 @@
 import { IMAGE_URL } from 'utils/constants';
+import { Genre } from './Genre';
 
 export class Movie {
   constructor(
@@ -8,7 +9,9 @@ export class Movie {
     public readonly releaseDate: Date,
     public readonly poster: string,
     public readonly overview: string,
+    public readonly genres?: Genre[],
   ) {
     this.poster = `${IMAGE_URL}${poster}`;
+    this.genres = genres ?? [];
   }
 }
