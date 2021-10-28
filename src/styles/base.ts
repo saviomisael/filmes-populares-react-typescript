@@ -54,4 +54,8 @@ export const BaseStyles = createGlobalStyle`
   li {
     list-style: none;
   }
+
+  a {
+    text-decoration: none;
+  }
 `;
