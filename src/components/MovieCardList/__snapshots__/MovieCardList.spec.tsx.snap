@@ -166,7 +166,7 @@ exports[`<MovieCardList /> should matches with snapshot 1`] = `
           class="c9"
         >
           Lançou em: 
-          27 de outubro de 2021
+          15 de fevereiro de 2021
         </p>
       </div>
     </article>
@@ -204,7 +204,7 @@ exports[`<MovieCardList /> should matches with snapshot 1`] = `
           class="c9"
         >
           Lançou em: 
-          27 de outubro de 2021
+          15 de fevereiro de 2021
         </p>
       </div>
     </article>
@@ -242,7 +242,7 @@ exports[`<MovieCardList /> should matches with snapshot 1`] = `
           class="c9"
         >
           Lançou em: 
-          27 de outubro de 2021
+          15 de fevereiro de 2021
         </p>
       </div>
     </article>
@@ -280,7 +280,7 @@ exports[`<MovieCardList /> should matches with snapshot 1`] = `
           class="c9"
         >
           Lançou em: 
-          27 de outubro de 2021
+          15 de fevereiro de 2021
         </p>
       </div>
     </article>

@@ -179,7 +179,7 @@ exports[`<SectionMovies /> should matches with snapshot 1`] = `
             class="c10"
           >
             Lançou em: 
-            28 de outubro de 2021
+            15 de fevereiro de 2021
           </p>
         </div>
       </article>
@@ -217,7 +217,7 @@ exports[`<SectionMovies /> should matches with snapshot 1`] = `
             class="c10"
           >
             Lançou em: 
-            28 de outubro de 2021
+            15 de fevereiro de 2021
           </p>
         </div>
       </article>
@@ -255,7 +255,7 @@ exports[`<SectionMovies /> should matches with snapshot 1`] = `
             class="c10"
           >
             Lançou em: 
-            28 de outubro de 2021
+            15 de fevereiro de 2021
           </p>
         </div>
       </article>
@@ -293,7 +293,7 @@ exports[`<SectionMovies /> should matches with snapshot 1`] = `
             class="c10"
           >
             Lançou em: 
-            28 de outubro de 2021
+            15 de fevereiro de 2021
           </p>
         </div>
       </article>
