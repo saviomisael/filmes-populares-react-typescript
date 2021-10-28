@@ -3,6 +3,7 @@ import * as TvSerieStyles from 'components/TvSerieCard/styles';
 
 export const Card = styled.article`
   width: 30rem;
+  height: 56.8rem;
   border-collapse: separate;
   border-radius: 1.2rem;
 
@@ -28,7 +29,9 @@ export const Figure = styled.figure`
   border-radius: 0.8rem 0.8rem 0 0;
 `;
 
-export const Image = styled(TvSerieStyles.Image)``;
+export const Image = styled(TvSerieStyles.Image)`
+  object-fit: cover;
+`;
 
 export const Caption = styled(TvSerieStyles.Caption)`
   visibility: visible;

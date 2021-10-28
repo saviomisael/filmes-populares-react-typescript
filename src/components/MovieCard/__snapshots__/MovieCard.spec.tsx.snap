@@ -1,14 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<MovieCard /> should matches with snapshot 1`] = `
-.c7 {
+.c8 {
   color: #FFFFFF;
   text-align: center;
   text-transform: none;
   padding-bottom: 2rem;
 }
 
-.c5 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -26,20 +26,20 @@ exports[`<MovieCard /> should matches with snapshot 1`] = `
   color: #FFFFFF;
 }
 
-.c5::before {
+.c6::before {
   content: url(star.svg);
   -webkit-filter: invert(72%) sepia(86%) saturate(526%) hue-rotate(8deg) brightness(170%) contrast(101%);
   filter: invert(72%) sepia(86%) saturate(526%) hue-rotate(8deg) brightness(170%) contrast(101%);
 }
 
-.c8 {
+.c9 {
   font-weight: 400;
   font-size: 1.4rem;
   color: #FFFFFF;
   text-align: center;
 }
 
-.c3 {
+.c4 {
   width: 100%;
   position: absolute;
   right: 0;
@@ -76,6 +76,7 @@ exports[`<MovieCard /> should matches with snapshot 1`] = `
 
 .c0 {
   width: 30rem;
+  height: 56.8rem;
   border-collapse: separate;
   border-radius: 1.2rem;
   border: 0.4rem solid #FA9F42;
@@ -104,12 +105,16 @@ exports[`<MovieCard /> should matches with snapshot 1`] = `
   border-radius: 0.8rem 0.8rem 0 0;
 }
 
-.c4 {
+.c3 {
+  object-fit: cover;
+}
+
+.c5 {
   visibility: visible;
   opacity: 1;
 }
 
-.c6 {
+.c7 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -133,29 +138,29 @@ exports[`<MovieCard /> should matches with snapshot 1`] = `
     class="c1"
   >
     <img
-      class="c2"
+      class="c2 c3"
       src="https://image.tmdb.org/t/p/original/s9E9W77HS8zEQvsrpz5aEUTKnvD.jpg"
     />
     <figcaption
-      class="c3 c4"
+      class="c4 c5"
     >
       <h4
-        class="c5"
+        class="c6"
       >
         9
       </h4>
     </figcaption>
   </figure>
   <div
-    class="c6"
+    class="c7"
   >
     <h4
-      class="c7"
+      class="c8"
     >
       Duna
     </h4>
     <p
-      class="c8"
+      class="c9"
     >
       Lançou em: 
       15 de fevereiro de 2021

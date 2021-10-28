@@ -8,7 +8,7 @@ exports[`<SectionMovies /> should matches with snapshot 1`] = `
   padding-bottom: 2rem;
 }
 
-.c8 {
+.c9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -26,20 +26,20 @@ exports[`<SectionMovies /> should matches with snapshot 1`] = `
   color: #FFFFFF;
 }
 
-.c8::before {
+.c9::before {
   content: url(star.svg);
   -webkit-filter: invert(72%) sepia(86%) saturate(526%) hue-rotate(8deg) brightness(170%) contrast(101%);
   filter: invert(72%) sepia(86%) saturate(526%) hue-rotate(8deg) brightness(170%) contrast(101%);
 }
 
-.c10 {
+.c11 {
   font-weight: 400;
   font-size: 1.4rem;
   color: #FFFFFF;
   text-align: center;
 }
 
-.c6 {
+.c7 {
   width: 100%;
   position: absolute;
   right: 0;
@@ -76,6 +76,7 @@ exports[`<SectionMovies /> should matches with snapshot 1`] = `
 
 .c3 {
   width: 30rem;
+  height: 56.8rem;
   border-collapse: separate;
   border-radius: 1.2rem;
   border: 0.4rem solid #FA9F42;
@@ -104,12 +105,16 @@ exports[`<SectionMovies /> should matches with snapshot 1`] = `
   border-radius: 0.8rem 0.8rem 0 0;
 }
 
-.c7 {
+.c6 {
+  object-fit: cover;
+}
+
+.c8 {
   visibility: visible;
   opacity: 1;
 }
 
-.c9 {
+.c10 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -156,21 +161,21 @@ exports[`<SectionMovies /> should matches with snapshot 1`] = `
           class="c4"
         >
           <img
-            class="c5"
+            class="c5 c6"
             src="https://image.tmdb.org/t/p/original/s9E9W77HS8zEQvsrpz5aEUTKnvD.jpg"
           />
           <figcaption
-            class="c6 c7"
+            class="c7 c8"
           >
             <h4
-              class="c8"
+              class="c9"
             >
               9
             </h4>
           </figcaption>
         </figure>
         <div
-          class="c9"
+          class="c10"
         >
           <h4
             class="c1"
@@ -178,7 +183,7 @@ exports[`<SectionMovies /> should matches with snapshot 1`] = `
             Duna
           </h4>
           <p
-            class="c10"
+            class="c11"
           >
             Lançou em: 
             15 de fevereiro de 2021
@@ -194,21 +199,21 @@ exports[`<SectionMovies /> should matches with snapshot 1`] = `
           class="c4"
         >
           <img
-            class="c5"
+            class="c5 c6"
             src="https://image.tmdb.org/t/p/original/s9E9W77HS8zEQvsrpz5aEUTKnvD.jpg"
           />
           <figcaption
-            class="c6 c7"
+            class="c7 c8"
           >
             <h4
-              class="c8"
+              class="c9"
             >
               9
             </h4>
           </figcaption>
         </figure>
         <div
-          class="c9"
+          class="c10"
         >
           <h4
             class="c1"
@@ -216,7 +221,7 @@ exports[`<SectionMovies /> should matches with snapshot 1`] = `
             Duna
           </h4>
           <p
-            class="c10"
+            class="c11"
           >
             Lançou em: 
             15 de fevereiro de 2021
@@ -232,21 +237,21 @@ exports[`<SectionMovies /> should matches with snapshot 1`] = `
           class="c4"
         >
           <img
-            class="c5"
+            class="c5 c6"
             src="https://image.tmdb.org/t/p/original/s9E9W77HS8zEQvsrpz5aEUTKnvD.jpg"
           />
           <figcaption
-            class="c6 c7"
+            class="c7 c8"
           >
             <h4
-              class="c8"
+              class="c9"
             >
               9
             </h4>
           </figcaption>
         </figure>
         <div
-          class="c9"
+          class="c10"
         >
           <h4
             class="c1"
@@ -254,7 +259,7 @@ exports[`<SectionMovies /> should matches with snapshot 1`] = `
             Duna
           </h4>
           <p
-            class="c10"
+            class="c11"
           >
             Lançou em: 
             15 de fevereiro de 2021
@@ -270,21 +275,21 @@ exports[`<SectionMovies /> should matches with snapshot 1`] = `
           class="c4"
         >
           <img
-            class="c5"
+            class="c5 c6"
             src="https://image.tmdb.org/t/p/original/s9E9W77HS8zEQvsrpz5aEUTKnvD.jpg"
           />
           <figcaption
-            class="c6 c7"
+            class="c7 c8"
           >
             <h4
-              class="c8"
+              class="c9"
             >
               9
             </h4>
           </figcaption>
         </figure>
         <div
-          class="c9"
+          class="c10"
         >
           <h4
             class="c1"
@@ -292,7 +297,7 @@ exports[`<SectionMovies /> should matches with snapshot 1`] = `
             Duna
           </h4>
           <p
-            class="c10"
+            class="c11"
           >
             Lançou em: 
             15 de fevereiro de 2021
