@@ -1,14 +1,18 @@
 import { FC } from 'react';
+import { AppRouter } from 'routes/AppRouter';
+import { StoreProvider } from 'store/StoreProvider';
 import { ThemeProvider } from 'styled-components';
 import { BaseStyles } from 'styles/base';
 import { theme } from 'styles/theme';
 
 const App: FC = () => {
   return (
-    <ThemeProvider theme={theme}>
-      <BaseStyles />
-      <h1>Oi</h1>
-    </ThemeProvider>
+    <StoreProvider>
+      <ThemeProvider theme={theme}>
+        <BaseStyles />
+        <AppRouter />
+      </ThemeProvider>
+    </StoreProvider>
   );
 };
 
