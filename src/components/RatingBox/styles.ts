@@ -14,5 +14,6 @@ export const Box = styled(Heading).attrs({ as: 'h4' })`
 
   &::before {
     content: url(${Star});
+    filter: invert(72%) sepia(86%) saturate(526%) hue-rotate(8deg) brightness(170%) contrast(101%);
   }
 `;

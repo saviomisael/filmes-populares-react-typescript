@@ -21,6 +21,8 @@ exports[`<RatingBox /> should matches with snapshot 1`] = `
 
 .c0::before {
   content: url(star.svg);
+  -webkit-filter: invert(72%) sepia(86%) saturate(526%) hue-rotate(8deg) brightness(170%) contrast(101%);
+  filter: invert(72%) sepia(86%) saturate(526%) hue-rotate(8deg) brightness(170%) contrast(101%);
 }
 
 <h4
