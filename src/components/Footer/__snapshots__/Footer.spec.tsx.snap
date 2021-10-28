@@ -1,6 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Footer /> should matches with snapshot 1`] = `
+.c2 {
+  color: #FFFFFF;
+  font-size: 1.8rem;
+}
+
 .c1 {
   font-weight: 400;
   font-size: 1.8rem;
@@ -8,7 +13,7 @@ exports[`<Footer /> should matches with snapshot 1`] = `
   text-align: left;
 }
 
-.c2 {
+.c3 {
   width: 48.9rem;
 }
 
@@ -40,10 +45,17 @@ exports[`<Footer /> should matches with snapshot 1`] = `
   >
     Dados providos por:
   </p>
-  <img
-    alt="The Movie DB logo"
+  <a
     class="c2"
-    src="tmdb-logo.svg"
-  />
+    href="https://developers.themoviedb.org/3/getting-started/introduction"
+    rel="noopener"
+    target="_blank"
+  >
+    <img
+      alt="The Movie DB logo"
+      class="c3"
+      src="tmdb-logo.svg"
+    />
+  </a>
 </footer>
 `;
