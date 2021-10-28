@@ -7,7 +7,7 @@ const mapSingleResponseToTvSerieModel = (response: TvSerieResponse) =>
   new TvSerie(response.id, response.name, response.vote_average, response.poster_path);
 
 export const mapResponseToTvSerieModel = (response: TvSerieResponse[]) =>
-  response.map((x) => mapSingleResponseToTvSerieModel(x));
+  response.map((x) => mapSingleResponseToTvSerieModel(x)).slice(0, 5);
 
 const mapSingleResponseToMovieModel = (response: MovieResponse) =>
   new Movie(
