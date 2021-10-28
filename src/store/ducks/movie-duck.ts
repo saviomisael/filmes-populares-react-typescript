@@ -1,5 +1,6 @@
-import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { Movie } from 'models/Movie';
+import { getMoviesMostPopular } from 'services/movie-service';
 
 export interface MovieState {
   movies: Movie[];
@@ -8,6 +9,12 @@ export interface MovieState {
 const initialState: MovieState = {
   movies: [],
 };
+
+export const fetchMoviesThunk = createAsyncThunk('movie/fetchMovies', async (_, { dispatch }) => {
+  const response = await getMoviesMostPopular();
+
+  dispatch(movieActions.addMovies(response));
+});
 
 const movieSlice = createSlice({
   name: 'movie',
