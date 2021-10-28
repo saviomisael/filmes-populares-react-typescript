@@ -23,6 +23,17 @@ export const BaseStyles = createGlobalStyle`
     min-height: 100vh;
   }
 
+  div#root {
+    display: flex;
+    flex-direction: column;
+    min-height: inherit;
+    max-width: inherit;
+  }
+
+  main {
+    flex: 1;
+  }
+
   h1 {
     font-size: ${({ theme }) => theme.fonts.sizes.huge};
     margin: 0;
