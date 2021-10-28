@@ -29,10 +29,14 @@ exports[`<PageTemplate /> should matches with snapshot 1`] = `
   class="c0"
   data-testid="header"
 >
-  <h1
-    class="c1"
+  <a
+    href="/"
   >
-    Filmes populares
-  </h1>
+    <h1
+      class="c1"
+    >
+      Filmes populares
+    </h1>
+  </a>
 </header>
 `;

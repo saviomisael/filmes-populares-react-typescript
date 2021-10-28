@@ -1,10 +1,12 @@
 import { screen } from '@testing-library/react';
-import { renderTheme } from 'utils/test-utils';
+import { renderWithRouter } from 'utils/test-utils';
 import { Header } from '.';
 
 describe('<Header />', () => {
   it('should matches with snapshot', () => {
-    renderTheme(<Header />);
+    renderWithRouter(<Header />, {
+      pathname: '/',
+    });
 
     const header = screen.getByTestId('header');
 
