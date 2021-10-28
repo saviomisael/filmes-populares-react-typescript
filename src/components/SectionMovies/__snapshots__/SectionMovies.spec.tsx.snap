@@ -1,0 +1,303 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SectionMovies /> should matches with snapshot 1`] = `
+.c1 {
+  color: #FFFFFF;
+  text-align: center;
+  text-transform: none;
+  padding-bottom: 2rem;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-column-gap: 1.4rem;
+  column-gap: 1.4rem;
+  color: #FFFFFF;
+}
+
+.c8::before {
+  content: url(star.svg);
+}
+
+.c10 {
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.c6 {
+  width: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0.2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 1.5rem 0;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: visibility 0.3s,opacity 0.3s;
+  transition: visibility 0.3s,opacity 0.3s;
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+  background: #413B3B88;
+}
+
+.c5 {
+  width: 100%;
+  border-radius: inherit;
+}
+
+.c3 {
+  width: 30rem;
+  border-collapse: separate;
+  border-radius: 1.2rem;
+  border: 0.4rem solid #FA9F42;
+  box-shadow: 0 0 1rem #FA9F42;
+  -webkit-transition: box-shadow 0.3s,-webkit-transform 0.3s;
+  -webkit-transition: box-shadow 0.3s,transform 0.3s;
+  transition: box-shadow 0.3s,transform 0.3s;
+}
+
+.c3:hover {
+  box-shadow: 0 0 3rem #FA9F42;
+  -webkit-transform: translateY(-0.5rem);
+  -ms-transform: translateY(-0.5rem);
+  transform: translateY(-0.5rem);
+}
+
+.c3:active {
+  -webkit-transform: translateY(0.5rem);
+  -ms-transform: translateY(0.5rem);
+  transform: translateY(0.5rem);
+}
+
+.c4 {
+  position: relative;
+  width: 100%;
+  border-radius: 0.8rem 0.8rem 0 0;
+}
+
+.c7 {
+  visibility: visible;
+  opacity: 1;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  row-gap: 1rem;
+  padding: 1rem;
+  border-radius: 10% 10% 0 0;
+  -webkit-transform: translateY(-1.2rem);
+  -ms-transform: translateY(-1.2rem);
+  transform: translateY(-1.2rem);
+  background: #413B3B;
+}
+
+.c2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 3rem;
+}
+
+.c0 {
+  padding: 1.5rem;
+  background: #413B3B;
+}
+
+<section
+  class="c0"
+>
+  <h3
+    class="c1"
+  >
+    Filmes mais populares
+  </h3>
+  <ul
+    class="c2"
+  >
+    <li>
+      <article
+        class="c3"
+      >
+        <figure
+          class="c4"
+        >
+          <img
+            class="c5"
+            src="https://image.tmdb.org/t/p/original/s9E9W77HS8zEQvsrpz5aEUTKnvD.jpg"
+          />
+          <figcaption
+            class="c6 c7"
+          >
+            <h4
+              class="c8"
+            >
+              9
+            </h4>
+          </figcaption>
+        </figure>
+        <div
+          class="c9"
+        >
+          <h4
+            class="c1"
+          >
+            Duna
+          </h4>
+          <p
+            class="c10"
+          >
+            Lançou em: 
+            28 de outubro de 2021
+          </p>
+        </div>
+      </article>
+    </li>
+    <li>
+      <article
+        class="c3"
+      >
+        <figure
+          class="c4"
+        >
+          <img
+            class="c5"
+            src="https://image.tmdb.org/t/p/original/s9E9W77HS8zEQvsrpz5aEUTKnvD.jpg"
+          />
+          <figcaption
+            class="c6 c7"
+          >
+            <h4
+              class="c8"
+            >
+              9
+            </h4>
+          </figcaption>
+        </figure>
+        <div
+          class="c9"
+        >
+          <h4
+            class="c1"
+          >
+            Duna
+          </h4>
+          <p
+            class="c10"
+          >
+            Lançou em: 
+            28 de outubro de 2021
+          </p>
+        </div>
+      </article>
+    </li>
+    <li>
+      <article
+        class="c3"
+      >
+        <figure
+          class="c4"
+        >
+          <img
+            class="c5"
+            src="https://image.tmdb.org/t/p/original/s9E9W77HS8zEQvsrpz5aEUTKnvD.jpg"
+          />
+          <figcaption
+            class="c6 c7"
+          >
+            <h4
+              class="c8"
+            >
+              9
+            </h4>
+          </figcaption>
+        </figure>
+        <div
+          class="c9"
+        >
+          <h4
+            class="c1"
+          >
+            Duna
+          </h4>
+          <p
+            class="c10"
+          >
+            Lançou em: 
+            28 de outubro de 2021
+          </p>
+        </div>
+      </article>
+    </li>
+    <li>
+      <article
+        class="c3"
+      >
+        <figure
+          class="c4"
+        >
+          <img
+            class="c5"
+            src="https://image.tmdb.org/t/p/original/s9E9W77HS8zEQvsrpz5aEUTKnvD.jpg"
+          />
+          <figcaption
+            class="c6 c7"
+          >
+            <h4
+              class="c8"
+            >
+              9
+            </h4>
+          </figcaption>
+        </figure>
+        <div
+          class="c9"
+        >
+          <h4
+            class="c1"
+          >
+            Duna
+          </h4>
+          <p
+            class="c10"
+          >
+            Lançou em: 
+            28 de outubro de 2021
+          </p>
+        </div>
+      </article>
+    </li>
+  </ul>
+</section>
+`;
