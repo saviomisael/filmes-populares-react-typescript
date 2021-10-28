@@ -1,3 +1,3 @@
 export class Genre {
-  constructor(public readonly name: string) {}
+  constructor(public readonly id: number, public readonly name: string) {}
 }
