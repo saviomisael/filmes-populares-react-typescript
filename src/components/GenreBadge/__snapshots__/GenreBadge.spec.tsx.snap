@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GenreBadge /> should matches with snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  border-radius: 0.6rem;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-weight: 400;
+  border: 0.2rem solid #FA9F42;
+  font-size: 1.8rem;
+  color: #FFFFFF;
+}
+
+<div
+  class="c0"
+>
+  <p
+    class="c1"
+  >
+    Action
+  </p>
+</div>
+`;

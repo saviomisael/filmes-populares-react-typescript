@@ -1,1 +1,1 @@
-export const genreMock = [{ name: 'Action' }];
+export const genreMock = [{ id: 1, name: 'Action' }];
