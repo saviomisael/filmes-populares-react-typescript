@@ -21,4 +21,21 @@ describe('<MovieDetails />', () => {
 
     expect(releaseDateText).toBeInTheDocument();
   });
+
+  it('should renders alt text with custom text', () => {
+    const movie = new Movie(
+      movieMock.id,
+      movieMock.name,
+      movieMock.rating,
+      movieMock.releaseDate,
+      movieMock.poster,
+      movieMock.overview,
+    );
+
+    renderTheme(<MovieDetails movie={movie} />);
+
+    const altText = screen.getByAltText(/^poster do filme Duna$/i);
+
+    expect(altText).toBeInTheDocument();
+  });
 });
