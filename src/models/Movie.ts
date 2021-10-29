@@ -2,6 +2,8 @@ import { IMAGE_URL } from 'utils/constants';
 import { Genre } from './Genre';
 
 export class Movie {
+  private _genres: Genre[];
+
   constructor(
     public readonly id: number,
     public readonly name: string,
@@ -9,9 +11,13 @@ export class Movie {
     public readonly releaseDate: Date,
     public readonly poster: string,
     public readonly overview: string,
-    public readonly genres?: Genre[],
+    genresList?: Genre[],
   ) {
     this.poster = `${IMAGE_URL}${poster}`;
-    this.genres = genres ?? [];
+    this._genres = genresList ?? [];
+  }
+
+  get genres() {
+    return this._genres;
   }
 }
