@@ -32,6 +32,7 @@ export const BaseStyles = createGlobalStyle`
 
   main {
     flex: 1;
+    background-color: ${({ theme }) => theme.colors.second};
   }
 
   h1 {
