@@ -3,12 +3,12 @@ import { Movie } from 'models/Movie';
 import { movieReducer, movieActions, MovieState } from './movie-duck';
 
 describe('movie duck', () => {
-  it('should add movies', () => {
-    const initialState: MovieState = {
-      movies: [],
-      singleMovie: null,
-    };
+  const initialState: MovieState = {
+    movies: [],
+    singleMovie: null,
+  };
 
+  it('should add movies', () => {
     const payload = movieListMock.map((x) => new Movie(x.id, x.name, x.rating, x.releaseDate, x.poster, x.overview));
 
     const stateModified = movieReducer(initialState, movieActions.addMovies(payload));
@@ -17,11 +17,6 @@ describe('movie duck', () => {
   });
 
   it('should update single movie', () => {
-    const initialState: MovieState = {
-      movies: [],
-      singleMovie: null,
-    };
-
     const payload = new Movie(
       movieMock.id,
       movieMock.name,
