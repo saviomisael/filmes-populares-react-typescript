@@ -4,6 +4,7 @@ export const Container = styled.div`
   margin: 0 auto;
   width: 70vw;
   display: flex;
+  padding: 3rem 0;
 `;
 
 export const LeftContent = styled.aside`

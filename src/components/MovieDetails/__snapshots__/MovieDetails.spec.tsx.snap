@@ -82,6 +82,7 @@ exports[`<MovieDetails /> should matches with snapshot 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  padding: 3rem 0;
 }
 
 .c1 {
