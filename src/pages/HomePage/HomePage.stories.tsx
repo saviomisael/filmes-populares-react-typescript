@@ -2,7 +2,7 @@ import { Meta, Story } from '@storybook/react';
 import { HomePage } from '.';
 
 export default {
-  title: 'components/HomePage',
+  title: 'pages/HomePage',
   component: HomePage,
   parameters: {
     backgrounds: {
