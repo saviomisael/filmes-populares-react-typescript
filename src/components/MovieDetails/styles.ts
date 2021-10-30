@@ -18,4 +18,5 @@ export const LeftContent = styled.aside`
 
 export const Poster = styled.img`
   width: 50%;
+  object-fit: cover;
 `;

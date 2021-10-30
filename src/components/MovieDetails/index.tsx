@@ -7,25 +7,26 @@ import { formatDate } from 'utils/format-date';
 import * as Styled from './styles';
 
 export type MovieDetailsProps = {
-  movie: Movie;
+  movie?: Movie;
 };
 
-export const MovieDetails = ({ movie: { name, overview, rating, poster, releaseDate, genres } }: MovieDetailsProps) => {
-  const showReleaseDate = `Lançou em: ${formatDate(releaseDate)}`;
-  const altText = `poster do filme ${name}`;
-
-  return (
-    <Styled.Container>
+export const MovieDetails = ({ movie }: MovieDetailsProps) => {
+  const showReleaseDate = movie?.releaseDate ? `Lançou em: ${formatDate(movie.releaseDate)}` : '';
+  const altText = movie?.name ? `poster do filme ${movie.name}` : '';
+  const content = movie && (
+    <>
       <Styled.LeftContent>
         <Heading as="h2" hasTextCenter>
-          {name}
+          {movie.name}
         </Heading>
-        <GenreBadgeList genres={genres} />
+        <GenreBadgeList genres={movie.genres} />
         <TextComponent hasTextCenter>{showReleaseDate}</TextComponent>
-        <RatingBox amount={rating} />
-        <TextComponent hasTextCenter>{overview}</TextComponent>
+        <RatingBox amount={movie.rating} />
+        <TextComponent hasTextCenter>{movie.overview}</TextComponent>
       </Styled.LeftContent>
-      <Styled.Poster src={poster} alt={altText} />
-    </Styled.Container>
+      <Styled.Poster src={movie.poster} alt={altText} />
+    </>
   );
+
+  return <Styled.Container>{content}</Styled.Container>;
 };

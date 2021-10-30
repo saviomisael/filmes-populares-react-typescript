@@ -107,6 +107,7 @@ exports[`<MovieDetails /> should matches with snapshot 1`] = `
 
 .c8 {
   width: 50%;
+  object-fit: cover;
 }
 
 <div

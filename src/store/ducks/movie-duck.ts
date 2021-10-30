@@ -4,12 +4,12 @@ import { getMovieById, getMoviesMostPopular } from 'services/movie-service';
 
 export interface MovieState {
   movies: Movie[];
-  singleMovie: Movie | null;
+  singleMovie: Movie | undefined;
 }
 
 const initialState: MovieState = {
   movies: [],
-  singleMovie: null,
+  singleMovie: undefined,
 };
 
 export const fetchMoviesThunk = createAsyncThunk('movie/fetchMovies', async (_, { dispatch }) => {
