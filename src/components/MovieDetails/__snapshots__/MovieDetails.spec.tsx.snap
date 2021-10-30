@@ -76,13 +76,20 @@ exports[`<MovieDetails /> should matches with snapshot 1`] = `
 }
 
 .c0 {
-  margin: 0 auto;
-  width: 70vw;
+  background: linear-gradient(to right,#413B3B 50%,transparent 100%),url(https://image.tmdb.org/t/p/original/s9E9W77HS8zEQvsrpz5aEUTKnvD.jpg);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  margin: 3rem auto;
+  width: 55vw;
+  height: 90vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 3rem 0;
+  -webkit-filter: brightness(1.2);
+  filter: brightness(1.2);
+  border-radius: 1.2rem;
 }
 
 .c1 {
@@ -103,11 +110,6 @@ exports[`<MovieDetails /> should matches with snapshot 1`] = `
   flex-direction: column;
   padding: 5rem;
   row-gap: 1.3rem;
-}
-
-.c8 {
-  width: 50%;
-  object-fit: cover;
 }
 
 <div
@@ -159,10 +161,5 @@ exports[`<MovieDetails /> should matches with snapshot 1`] = `
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     </p>
   </aside>
-  <img
-    alt="poster do filme Duna"
-    class="c8"
-    src="https://image.tmdb.org/t/p/original/s9E9W77HS8zEQvsrpz5aEUTKnvD.jpg"
-  />
 </div>
 `;

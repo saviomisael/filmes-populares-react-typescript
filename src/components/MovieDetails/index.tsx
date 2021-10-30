@@ -12,9 +12,8 @@ export type MovieDetailsProps = {
 
 export const MovieDetails = ({ movie }: MovieDetailsProps) => {
   const showReleaseDate = movie?.releaseDate ? `Lançou em: ${formatDate(movie.releaseDate)}` : '';
-  const altText = movie?.name ? `poster do filme ${movie.name}` : '';
   const content = movie && (
-    <>
+    <Styled.Container image={movie.poster}>
       <Styled.LeftContent>
         <Heading as="h2" hasTextCenter>
           {movie.name}
@@ -24,9 +23,8 @@ export const MovieDetails = ({ movie }: MovieDetailsProps) => {
         <RatingBox amount={movie.rating} />
         <TextComponent hasTextCenter>{movie.overview}</TextComponent>
       </Styled.LeftContent>
-      <Styled.Poster src={movie.poster} alt={altText} />
-    </>
+    </Styled.Container>
   );
 
-  return <Styled.Container>{content}</Styled.Container>;
+  return <>{content}</>;
 };
