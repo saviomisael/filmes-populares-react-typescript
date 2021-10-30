@@ -26,10 +26,10 @@ export const Card = styled.article`
 export const Figure = styled.figure`
   position: relative;
   width: 100%;
-  border-radius: 0.8rem 0.8rem 0 0;
 `;
 
 export const Image = styled(TvSerieStyles.Image)`
+  border-radius: 0.8rem 0.8rem 0 0;
   object-fit: cover;
 `;
 

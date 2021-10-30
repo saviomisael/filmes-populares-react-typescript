@@ -1,3 +1,4 @@
+import { MemoryRouter, Switch, Route } from 'react-router-dom';
 import { Meta, Story } from '@storybook/react';
 import { MovieCard, MovieCardProps } from '.';
 import { movieMock } from 'mocks/movie-mock';
@@ -21,6 +22,15 @@ export default {
       default: 'dark',
     },
   },
+  decorators: [
+    (Story) => (
+      <MemoryRouter initialEntries={['/']}>
+        <Switch>
+          <Route path="/" render={() => <Story />} />
+        </Switch>
+      </MemoryRouter>
+    ),
+  ],
 } as Meta;
 
 export const Default: Story<MovieCardProps> = (args) => <MovieCard {...args} />;

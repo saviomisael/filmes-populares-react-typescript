@@ -1,14 +1,16 @@
 import { screen } from '@testing-library/react';
 import { movieListMock } from 'mocks/movie-mock';
 import { Movie } from 'models/Movie';
-import { renderTheme } from 'utils/test-utils';
+import { renderWithRouter } from 'utils/test-utils';
 import { MovieCardList } from '.';
 
 describe('<MovieCardList />', () => {
   const movies = movieListMock.map((x) => new Movie(x.id, x.name, x.rating, x.releaseDate, x.poster, x.overview));
 
   it('should show many li elements', () => {
-    renderTheme(<MovieCardList movies={movies} />);
+    renderWithRouter(<MovieCardList movies={movies} />, {
+      pathname: '/',
+    });
 
     const liElements = screen.getAllByRole('listitem');
 
@@ -16,7 +18,9 @@ describe('<MovieCardList />', () => {
   });
 
   it('should matches with snapshot', () => {
-    const { container } = renderTheme(<MovieCardList movies={movies} />);
+    const { container } = renderWithRouter(<MovieCardList movies={movies} />, {
+      pathname: '/',
+    });
 
     expect(container.firstChild).toMatchSnapshot();
   });

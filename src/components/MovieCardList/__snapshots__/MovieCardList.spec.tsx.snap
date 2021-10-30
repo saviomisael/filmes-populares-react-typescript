@@ -102,10 +102,10 @@ exports[`<MovieCardList /> should matches with snapshot 1`] = `
 .c2 {
   position: relative;
   width: 100%;
-  border-radius: 0.8rem 0.8rem 0 0;
 }
 
 .c4 {
+  border-radius: 0.8rem 0.8rem 0 0;
   object-fit: cover;
 }
 
@@ -147,10 +147,14 @@ exports[`<MovieCardList /> should matches with snapshot 1`] = `
       <figure
         class="c2"
       >
-        <img
-          class="c3 c4"
-          src="https://image.tmdb.org/t/p/original/s9E9W77HS8zEQvsrpz5aEUTKnvD.jpg"
-        />
+        <a
+          href="/movies/1"
+        >
+          <img
+            class="c3 c4"
+            src="https://image.tmdb.org/t/p/original/s9E9W77HS8zEQvsrpz5aEUTKnvD.jpg"
+          />
+        </a>
         <figcaption
           class="c5 c6"
         >
@@ -164,11 +168,15 @@ exports[`<MovieCardList /> should matches with snapshot 1`] = `
       <div
         class="c8"
       >
-        <h4
-          class="c9"
+        <a
+          href="/movies/1"
         >
-          Duna
-        </h4>
+          <h4
+            class="c9"
+          >
+            Duna
+          </h4>
+        </a>
         <p
           class="c10"
         >
@@ -185,10 +193,14 @@ exports[`<MovieCardList /> should matches with snapshot 1`] = `
       <figure
         class="c2"
       >
-        <img
-          class="c3 c4"
-          src="https://image.tmdb.org/t/p/original/s9E9W77HS8zEQvsrpz5aEUTKnvD.jpg"
-        />
+        <a
+          href="/movies/2"
+        >
+          <img
+            class="c3 c4"
+            src="https://image.tmdb.org/t/p/original/s9E9W77HS8zEQvsrpz5aEUTKnvD.jpg"
+          />
+        </a>
         <figcaption
           class="c5 c6"
         >
@@ -202,11 +214,15 @@ exports[`<MovieCardList /> should matches with snapshot 1`] = `
       <div
         class="c8"
       >
-        <h4
-          class="c9"
+        <a
+          href="/movies/2"
         >
-          Duna
-        </h4>
+          <h4
+            class="c9"
+          >
+            Duna
+          </h4>
+        </a>
         <p
           class="c10"
         >
@@ -223,10 +239,14 @@ exports[`<MovieCardList /> should matches with snapshot 1`] = `
       <figure
         class="c2"
       >
-        <img
-          class="c3 c4"
-          src="https://image.tmdb.org/t/p/original/s9E9W77HS8zEQvsrpz5aEUTKnvD.jpg"
-        />
+        <a
+          href="/movies/3"
+        >
+          <img
+            class="c3 c4"
+            src="https://image.tmdb.org/t/p/original/s9E9W77HS8zEQvsrpz5aEUTKnvD.jpg"
+          />
+        </a>
         <figcaption
           class="c5 c6"
         >
@@ -240,11 +260,15 @@ exports[`<MovieCardList /> should matches with snapshot 1`] = `
       <div
         class="c8"
       >
-        <h4
-          class="c9"
+        <a
+          href="/movies/3"
         >
-          Duna
-        </h4>
+          <h4
+            class="c9"
+          >
+            Duna
+          </h4>
+        </a>
         <p
           class="c10"
         >
@@ -261,10 +285,14 @@ exports[`<MovieCardList /> should matches with snapshot 1`] = `
       <figure
         class="c2"
       >
-        <img
-          class="c3 c4"
-          src="https://image.tmdb.org/t/p/original/s9E9W77HS8zEQvsrpz5aEUTKnvD.jpg"
-        />
+        <a
+          href="/movies/4"
+        >
+          <img
+            class="c3 c4"
+            src="https://image.tmdb.org/t/p/original/s9E9W77HS8zEQvsrpz5aEUTKnvD.jpg"
+          />
+        </a>
         <figcaption
           class="c5 c6"
         >
@@ -278,11 +306,15 @@ exports[`<MovieCardList /> should matches with snapshot 1`] = `
       <div
         class="c8"
       >
-        <h4
-          class="c9"
+        <a
+          href="/movies/4"
         >
-          Duna
-        </h4>
+          <h4
+            class="c9"
+          >
+            Duna
+          </h4>
+        </a>
         <p
           class="c10"
         >

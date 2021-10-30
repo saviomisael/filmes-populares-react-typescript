@@ -102,10 +102,10 @@ exports[`<MovieCard /> should matches with snapshot 1`] = `
 .c1 {
   position: relative;
   width: 100%;
-  border-radius: 0.8rem 0.8rem 0 0;
 }
 
 .c3 {
+  border-radius: 0.8rem 0.8rem 0 0;
   object-fit: cover;
 }
 
@@ -137,10 +137,14 @@ exports[`<MovieCard /> should matches with snapshot 1`] = `
   <figure
     class="c1"
   >
-    <img
-      class="c2 c3"
-      src="https://image.tmdb.org/t/p/original/s9E9W77HS8zEQvsrpz5aEUTKnvD.jpg"
-    />
+    <a
+      href="/movies/1"
+    >
+      <img
+        class="c2 c3"
+        src="https://image.tmdb.org/t/p/original/s9E9W77HS8zEQvsrpz5aEUTKnvD.jpg"
+      />
+    </a>
     <figcaption
       class="c4 c5"
     >
@@ -154,11 +158,15 @@ exports[`<MovieCard /> should matches with snapshot 1`] = `
   <div
     class="c7"
   >
-    <h4
-      class="c8"
+    <a
+      href="/movies/1"
     >
-      Duna
-    </h4>
+      <h4
+        class="c8"
+      >
+        Duna
+      </h4>
+    </a>
     <p
       class="c9"
     >

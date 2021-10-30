@@ -1,5 +1,5 @@
 import { Movie } from 'models/Movie';
-import { renderTheme } from 'utils/test-utils';
+import { renderWithRouter } from 'utils/test-utils';
 import { MovieCard } from '.';
 import { movieMock } from 'mocks/movie-mock';
 
@@ -14,7 +14,9 @@ describe('<MovieCard />', () => {
       movieMock.overview,
     );
 
-    const { container } = renderTheme(<MovieCard movie={movie} />);
+    const { container } = renderWithRouter(<MovieCard movie={movie} />, {
+      pathname: '/',
+    });
 
     expect(container.firstChild).toMatchSnapshot();
   });
