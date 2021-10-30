@@ -7,4 +7,8 @@ export const storeMock = configureStore({
     tvSeries: tvSerieMockReducer,
     movies: movieMockReducer,
   },
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware({
+      serializableCheck: false,
+    }),
 });
