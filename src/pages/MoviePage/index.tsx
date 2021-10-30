@@ -18,6 +18,8 @@ export const MoviePage = () => {
   useEffect(() => {
     const singleMovieActionPromise = dispatch(fetchSingleMovieThunk(Number(movieId)));
 
+    window.scrollTo(0, 0);
+
     return () => {
       singleMovieActionPromise.abort();
     };
