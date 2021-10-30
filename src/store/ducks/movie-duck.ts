@@ -4,10 +4,12 @@ import { getMoviesMostPopular } from 'services/movie-service';
 
 export interface MovieState {
   movies: Movie[];
+  singleMovie: Movie | null;
 }
 
 const initialState: MovieState = {
   movies: [],
+  singleMovie: null,
 };
 
 export const fetchMoviesThunk = createAsyncThunk('movie/fetchMovies', async (_, { dispatch }) => {
@@ -22,6 +24,9 @@ const movieSlice = createSlice({
   reducers: {
     addMovies: (state, action: PayloadAction<Movie[]>) => {
       state.movies = action.payload;
+    },
+    updateSingleMovie: (state, action: PayloadAction<Movie>) => {
+      state.singleMovie = action.payload;
     },
   },
 });
