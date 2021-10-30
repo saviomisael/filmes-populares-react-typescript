@@ -58,5 +58,9 @@ export const BaseStyles = createGlobalStyle`
 
   a {
     text-decoration: none;
+
+    &:hover {
+      filter: brightness(0.8);
+    }
   }
 `;
