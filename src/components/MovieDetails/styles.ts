@@ -14,8 +14,7 @@ export const Container = styled.div<ContainerProps>`
 
   margin: 3rem auto;
   width: 55vw;
-  height: 90vh;
-  display: flex;
+  height: 100%;
   filter: brightness(1.2);
   border-radius: 1.2rem;
 `;
@@ -27,4 +26,5 @@ export const LeftContent = styled.aside`
   flex-direction: column;
   padding: 5rem;
   row-gap: 1.3rem;
+  width: 50%;
 `;
